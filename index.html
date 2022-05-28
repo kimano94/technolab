@@ -20,28 +20,36 @@
   </head>
   <body>
     <header>
-      <img src="img/technolab24.png" alt="" />
-      <h1>Таблица чемпионов</h1>
-      <h3>Курс Python</h3>
+      <img src="img/technolab24.png" alt="" class="hat technolab" />
+      <div class="first">
+        <h1 class="hat text">Таблица чемпионов</h1>
+        <h2 class="hat text">Курс Python</h2>
+      </div>
     </header>
     <section>
-      <!-- <h3>Цель конкурса:</h3> -->
+      <!-- <h3>Цельконкурса:</h3> -->
       <!-- <p>Целью конкурса является оценка навыков алгоритмизации и программирования детей, обучающихся на специализированных курсах Академии Технолаб.</p> -->
       <table>
         <thead>
           <tr>
-            <th>ФИО участника</th>
-
+            <th class="name">ФИО участника</th>
             <th>Группа</th>
-
             <th>Кол-во баллов</th>
-
             <th>Место</th>
           </tr>
         </thead>
         <tbody>
           <tr>
-            <td>Имя</td>
+            <td class="name">Имя</td>
+
+            <td>группа</td>
+
+            <td>баллы</td>
+
+            <td>место</td>
+          </tr>
+          <!-- <tr>
+            <td class="name">Имя</td>
 
             <td>группа</td>
 
@@ -50,7 +58,7 @@
             <td>место</td>
           </tr>
           <tr>
-            <td>Имя</td>
+            <td class="name">Имя</td>
 
             <td>группа</td>
 
@@ -59,7 +67,7 @@
             <td>место</td>
           </tr>
           <tr>
-            <td>Имя</td>
+            <td class="name">Имя</td>
 
             <td>группа</td>
 
@@ -68,25 +76,54 @@
             <td>место</td>
           </tr>
           <tr>
-            <td>Имя</td>
-
-            <td>баллы</td>
-
-            <td>группа</td>
-
-            <td>место</td>
-          </tr>
-          <tr>
-            <td>Имя</td>
+            <td class="name">Имя</td>
 
             <td>группа</td>
 
             <td>баллы</td>
 
             <td>место</td>
-          </tr>
+          </tr> -->
         </tbody>
       </table>
     </section>
+    <!-- <form action="#">
+      <label for=""></label>
+      <input type="text" />
+      <button type="submit">Отправить</button>
+    </form> -->
+    <!-- <form>
+      <input type="button" value="Запустить ПК" />
+    </form>
+    <p>ПК выключен.</p>
+    <script src="script.js"></script> -->
+    <!-- <h3>Expense Tracker</h3>
+
+    <form action="">
+      <label for="date">Date: </label>
+      <input type="date" id="date" />
+      <br />
+
+      <label for="desc">Description: </label>
+      <input type="text" id="desc" />
+      <br />
+
+      <label for="amount">Amount: </label>
+      <input type="text" id="amount" />
+      <br />
+
+      <input type="button" id="submit" value="Submit" />
+      <br />
+    </form>
+
+    <table id="table">
+      <tr>
+        <th>Date</th>
+        <th>Description</th>
+        <th>Amount</th>
+      </tr>
+    </table> -->
+    <table id="table"></table>
+    <script src="script.js"></script>
   </body>
 </html>

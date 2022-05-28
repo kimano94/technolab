@@ -1,0 +1,68 @@
+* {
+}
+
+@import url("https://fonts.googleapis.com/css2?family=Alegreya+SC&family=Exo+2&display=swap");
+
+body {
+  width: 100%;
+  height: auto;
+
+  font: normal 14px "Exo 2", sans-serif;
+}
+
+@media (max-width: 700px) {
+  body {
+    text-align: center;
+    display: block;
+  }
+}
+
+header {
+  width: 100%;
+  display: flex;
+  padding: 10px;
+
+  background: darkblue;
+  color: white;
+}
+
+h1,
+h2 {
+  display: flex;
+  font: "Alegreya SC", serif;
+}
+
+img {
+  width: 200px;
+  height: fit-content;
+}
+
+table {
+  margin: 20px;
+  padding: 5px;
+}
+
+section,
+table {
+  max-width: 700px;
+
+  margin: auto;
+
+  font: normal 16px;
+}
+
+thead,
+tbody {
+  text-align: center;
+}
+
+.hat {
+  margin: 10px;
+}
+
+.technolab {
+  background: rgb(255, 255, 255, 100%);
+  padding: 5px;
+  border-radius: 10px;
+  border-color: none;
+}
